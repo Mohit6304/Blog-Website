@@ -18,12 +18,14 @@ To run the project locally, follow these steps:
 1.Clone the repository: git clone https://github.com/Mohit6304/Blog-Website.git
 
 2.Install dependencies for the frontend:
-    -Navigate to the frontend folder: cd frontend
-    -Install dependencies: npm install
+
+    1.Navigate to the frontend folder: cd frontend
+    2.Install dependencies: npm install
     
 3.Install dependencies for the backend:
-    -Navigate to the backend folder: cd backend
-    -Install dependencies: npm install
+
+    3.Navigate to the backend folder: cd backend
+    4.Install dependencies: npm install
     
 4.Set up the MySQL database by executing the necessary SQL scripts. You can find the scripts in the backend/db folder. Adjust the database connection details as needed in backend/db.js.
 
@@ -59,6 +61,7 @@ The project utilizes a MySQL database named "blog" with two tables: "users" and 
     -img: Image associated with the blog post.
     -uid (not null): Foreign key referencing the id column in the users table, indicating the user who created the post.
     -category: Category or topic of the blog post.
+    
 The uid column in the posts table establishes a relationship with the id column in the users table, linking each post to its corresponding user.
 
 Please ensure that the MySQL database is set up with these table structures before running the projectand Make sure to modify the database connection details in backend/db.js to match your MySQL server configuration. 
