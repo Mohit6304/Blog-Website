@@ -16,19 +16,25 @@ Editing and Deleting Posts: Users can edit or delete their own blog posts. This 
 To run the project locally, follow these steps:
 
 1.Clone the repository: git clone https://github.com/Mohit6304/Blog-Website.git
+
 2.Install dependencies for the frontend:
     -Navigate to the frontend folder: cd frontend
     -Install dependencies: npm install
+    
 3.Install dependencies for the backend:
     -Navigate to the backend folder: cd backend
     -Install dependencies: npm install
+    
 4.Set up the MySQL database by executing the necessary SQL scripts. You can find the scripts in the backend/db folder. Adjust the database connection details as needed in backend/db.js.
+
 5.Start the backend server:
     -Navigate to the backend folder: cd backend
     -Start the server: npm start
+    
 6.Start the frontend development server:
     -Navigate to the frontend folder: cd frontend
     -Start the frontend: npm start
+    
 7.Open your browser and access the website at http://localhost:3000.
 
 
